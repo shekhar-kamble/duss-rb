@@ -1,6 +1,6 @@
+require 'faraday'
+require 'uri'
+require 'json'
 require "duss/version"
-
-module Duss
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative 'base'
+require_relative 'duss/client'
