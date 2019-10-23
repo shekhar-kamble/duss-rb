@@ -1,0 +1,23 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/*.rb'
+    - '*.gemspec'
+    - 'test.rb'
+    - '**/Gemfile'
+    - 'bin/*'
+    - '**/version.rb'
+Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 200
+
+Metrics/BlockLength:
+  Max: 1500
